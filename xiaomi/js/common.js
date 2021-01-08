@@ -1,0 +1,47 @@
+//logo事件
+$('.logo').mouseenter(function(){
+    $(this).children('.logo_a1').css({
+        transform:'translate3d(55px,0px,0px)',
+        transitionDuration:'200ms'
+    })
+    $(this).children('.logo_a2').css({
+        transform:'translate3d(55px,0px,0px)',
+        transitionDuration:'200ms'
+    })
+})
+$('.logo').mouseleave(function(){
+    $(this).children('.logo_a1').css({
+        transform:'translate3d(0px,0px,0px)',
+        transitionDuration:'200ms'
+    })
+    $(this).children('.logo_a2').css({
+        transform:'translate3d(-55px,0px,0px)',
+        transitionDuration:'200ms'
+    })
+})
+
+//首页划入购物车按钮区域效果
+$('.in_right').mouseenter(function(){
+    $('.in_right>.ha4').animate({'opacity':1},'fast',function(){
+        $('.in_right>.shopNum').animate({'height':'100px'},'fast',function(){
+            $('.in_right>.shopNum>.txt').css('display','block');   
+        });
+    }); 
+})
+$('.in_right').mouseleave(function(){
+    $('.in_right>.shopNum').animate({'height':'0px'},'normal',function(){
+        $('.in_right>.shopNum>.txt').css('display','none');  
+        $('.in_right>.ha4').animate({'opacity':0},'fast');
+        
+    });
+})
+
+//首页搜索框
+$('input[type="search"]').mouseenter(function(){
+    $('input[type="search"]').css('backgroundColor','#ff6700');
+    $('.f1>i').css('color','white');
+})
+$('input[type="search"]').mouseleave(function(){
+    $('input[type="search"]').css('backgroundColor','white');
+    $('.f1>i').css('color','#616161');
+})

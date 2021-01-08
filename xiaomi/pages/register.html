@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米注册页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../sass/register.css">
+</head>
+<body>
+    <div id="rMain">
+        <div class="rMain_inner">
+            <div class="rLogo">
+                <div class="rLogo_inner"></div>
+            </div>
+            <h2 class="rTitle">小米注册帐号</h2>
+            <form action="#" class="rForm">
+                <fieldset>
+                    <legend>国家/地区</legend>
+                    <select name="" id="" class="reg_sel">
+                        <option value="zhongguo">中国</option>
+                        <option value="meiguo">美国</option>
+                        <option value="deguo">德国</option>
+                        <option value="faguo">法国</option>
+                        <option value="xinjiapo">新加坡</option>
+                    </select>
+                    <p class="txt">成功注册帐号后,国家/地区将不能更改</p>
+                </fieldset>
+                <fieldset>
+                    <legend>手机号码</legend>
+                    <div class="phone_num">
+                        <div class="phone_div1">+86</div>
+                        <input type="text" class="phone_numIn" placeholder="请输入手机号码" oninput="check()">
+                    </div>
+                </fieldset>
+                <span class="phone_warn">请输入手机号码</span>
+                <span class="warn">手机号码格式错误</span>
+                <button type="button" id="btn">立即注册</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/jquery1.12.4.min.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+</html>

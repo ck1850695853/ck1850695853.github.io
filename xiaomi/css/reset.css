@@ -1,0 +1,36 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend,input, img ,section,nav,figure,figcaption,footer,header
+{ margin:0; padding:0; }
+body,html{
+    font: 14px "微软雅黑",Arial;
+}
+body{
+    /* min-width: 1226px; */
+    background: #ffffff;
+}
+h1,h2,b,strong{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+input,textarea{
+    outline: none;
+}
+.clearfix{
+    *zoom: 1;
+}/*对IE7及以下版本兼容.*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}/*解决子元素浮动造成父元素高度塌陷问题*/

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米登录页面</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header" class="containerL">
+            <div class="logo">
+                <a href="#" title="小米商城">小米商城</a>
+            </div>
+        </div>
+        <div id="banner"><a href="#" title="">小米网</a></div>
+    </div>
+    <div id="login_wrapper">
+        <div id="login_box" class="containerL">
+            <div class="login_box_inner">
+                <div class="title">
+                    <div><a href="#">帐号登录</a></div>
+                    <div><a href="#">扫码登录</a></div>
+                </div>
+                <form action="#" class="login_form">
+                    <input type="text" placeholder="邮箱/手机号码/小米ID" class="txt" oninput="check()">
+                    <input type="password" placeholder="密码" class="pw" oninput="check()">
+                    <span class="txt_warn">请输入帐号</span>
+                    <span class="pw_warn">请输入密码</span>
+                    <span class="wrong">用户名或密码不正确</span>
+                    <button type="button" class="login_btn">登录</button>
+                </form>
+                <a href="#" class="login_msg">手机短信登录/注册</a>
+                <div class="register">
+                    <a href="#">立即注册</a>&nbsp;<span>|</span>&nbsp;<a href="#">忘记密码 ?</a>
+                </div>
+                <div class="login_other_container">
+                    <div class="login_others">
+                        <a href="#" class="qq"><i class="iconfont icon-weibo"></i><span></span></a>
+                        <a href="#" class="weibo"><i class="iconfont icon-weixin"></i><span></span></a>
+                        <a href="#" class="zhifubao"><i class="iconfont icon-weibo"></i><span></span></a>
+                        <a href="#" class="weixin"><i class="iconfont icon-weixin"></i><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="change_link"></div>
+        <p class="company_info"></p>
+    </div>
+    <script src="../js/jquery1.12.4.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

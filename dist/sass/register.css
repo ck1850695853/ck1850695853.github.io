@@ -1,0 +1,133 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+#rMain {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #dadce0;
+  background: #f9f9f9;
+  box-sizing: border-box;
+  padding-top: 7px;
+}
+
+.rMain_inner {
+  background: white;
+  width: 854px;
+  height: 551px;
+  margin: 0 auto;
+}
+
+.rMain_inner > .rLogo {
+  width: 48px;
+  height: 48px;
+  background: #ff6700;
+  margin: 0 auto 40px;
+}
+
+.rMain_inner > .rLogo > .rLogo_inner {
+  width: 100%;
+  height: 100%;
+  background: url(http://s02.mifile.cn/assets/static/image/mi-logo.png) no-repeat center;
+}
+
+.rMain_inner > .rTitle {
+  font-size: 30px;
+  color: #333333;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.rMain_inner > .rForm {
+  border: none;
+  width: 332px;
+  height: 248px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.rMain_inner > .rForm > fieldset {
+  width: 100%;
+  border: none;
+}
+
+.rMain_inner > .rForm > fieldset > legend {
+  width: 100%;
+  border: none;
+  height: 20px;
+  line-height: 20px;
+  padding-bottom: 5px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.rMain_inner > .rForm > fieldset > .reg_sel {
+  display: block;
+  width: 330px;
+  height: 40px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.rMain_inner > .rForm > fieldset > .txt {
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.rMain_inner > .rForm > fieldset > .phone_num {
+  width: 330px;
+  height: 42px;
+  border: 1px solid #e8e8e8;
+}
+
+.rMain_inner > .rForm > fieldset > .phone_num > .phone_div1 {
+  float: left;
+  width: 68px;
+  height: 42px;
+  border-right: 1px solid #e8e8e8;
+  text-align: center;
+  color: #555555;
+  line-height: 42px;
+}
+
+.rMain_inner > .rForm > fieldset > .phone_num > .phone_numIn {
+  display: block;
+  width: 260px;
+  height: 42px;
+  border: 0;
+  outline: none;
+  float: left;
+  color: #9d9d9d;
+  text-indent: 10px;
+}
+
+.rMain_inner > .rForm > fieldset:nth-child(2) {
+  padding-bottom: 15px;
+}
+
+.rMain_inner > .rForm > span {
+  color: #ff6666;
+  font-size: 12px;
+  display: none;
+}
+
+.rMain_inner > .rForm > #btn {
+  display: block;
+  width: 332px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: white;
+  background: #ff6700;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=register.css.map */
